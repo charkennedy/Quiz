@@ -44,6 +44,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywa-3F-ktt">
+                                <rect key="frame" x="141" y="648" width="95" height="9"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -54,6 +60,7 @@
                             <constraint firstItem="7yv-pr-JsU" firstAttribute="centerX" secondItem="sdm-oO-ZUV" secondAttribute="centerX" id="YM1-an-Fdq"/>
                             <constraint firstItem="sdm-oO-ZUV" firstAttribute="top" secondItem="1RN-cR-yic" secondAttribute="bottom" constant="8" id="c5C-w9-tbE"/>
                             <constraint firstItem="1RN-cR-yic" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kQv-aV-2XV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ywa-3F-ktt" secondAttribute="bottom" constant="10" id="x04-AY-YaH"/>
                             <constraint firstItem="1RN-cR-yic" firstAttribute="centerX" secondItem="sdm-oO-ZUV" secondAttribute="centerX" id="ysc-og-tKe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,6 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
