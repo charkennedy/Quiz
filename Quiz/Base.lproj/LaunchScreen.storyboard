@@ -18,29 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muk-kI-vYB">
-                                <rect key="frame" x="116" y="352" width="143" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muk-kI-vYB">
+                                <rect key="frame" x="116" y="357" width="143" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Point University" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vl-io-u43">
-                                <rect key="frame" x="107.5" y="323" width="160" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSE-XL-6Gj">
+                                <rect key="frame" x="1" y="295" width="373" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5vl-io-u43" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="303" id="1Rj-BX-LlZ"/>
-                            <constraint firstItem="5vl-io-u43" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="FcI-eJ-Hdm"/>
-                            <constraint firstItem="5vl-io-u43" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LHY-OR-VS0"/>
-                            <constraint firstItem="Muk-kI-vYB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Tej-8u-Bc1"/>
-                            <constraint firstItem="5vl-io-u43" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jju-vd-9zS"/>
-                            <constraint firstItem="5vl-io-u43" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jvP-q9-YY0"/>
-                            <constraint firstItem="Muk-kI-vYB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nXe-QW-Kst"/>
-                            <constraint firstItem="Muk-kI-vYB" firstAttribute="top" secondItem="5vl-io-u43" secondAttribute="bottom" constant="8" id="tth-Yu-faj"/>
+                            <constraint firstItem="Muk-kI-vYB" firstAttribute="top" secondItem="oSE-XL-6Gj" secondAttribute="bottom" constant="11" id="3EU-Jj-p7R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="289" id="JJm-Qt-fYO"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b7Y-ip-PZY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="8" id="dyY-B3-kvS"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="275" id="haU-Xw-AYY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="289" id="qWA-xf-mZL"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="275" id="yvG-nA-Urn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

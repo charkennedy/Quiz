@@ -44,8 +44,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywa-3F-ktt">
-                                <rect key="frame" x="141" y="648" width="95" height="9"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywa-3F-ktt">
+                                <rect key="frame" x="143" y="648" width="89" height="9"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="9"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,11 +53,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Ywa-3F-ktt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CYO-KV-KTo"/>
                             <constraint firstItem="1RN-cR-yic" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="GeO-FV-TJJ"/>
                             <constraint firstItem="edE-re-ZtQ" firstAttribute="centerX" secondItem="sdm-oO-ZUV" secondAttribute="centerX" id="JMF-52-vVO"/>
                             <constraint firstItem="7yv-pr-JsU" firstAttribute="top" secondItem="sdm-oO-ZUV" secondAttribute="bottom" constant="233" id="QZ8-fN-YjE"/>
                             <constraint firstItem="edE-re-ZtQ" firstAttribute="top" secondItem="7yv-pr-JsU" secondAttribute="bottom" constant="8" id="Tyv-on-e4A"/>
                             <constraint firstItem="7yv-pr-JsU" firstAttribute="centerX" secondItem="sdm-oO-ZUV" secondAttribute="centerX" id="YM1-an-Fdq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ywa-3F-ktt" secondAttribute="bottom" constant="10" id="br8-nh-3Bi"/>
                             <constraint firstItem="sdm-oO-ZUV" firstAttribute="top" secondItem="1RN-cR-yic" secondAttribute="bottom" constant="8" id="c5C-w9-tbE"/>
                             <constraint firstItem="1RN-cR-yic" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kQv-aV-2XV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ywa-3F-ktt" secondAttribute="bottom" constant="10" id="x04-AY-YaH"/>
