@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,28 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muk-kI-vYB">
-                                <rect key="frame" x="116" y="357" width="143" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oSE-XL-6Gj">
+                                <rect key="frame" x="8" y="308" width="359" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSE-XL-6Gj">
-                                <rect key="frame" x="1" y="295" width="373" height="51"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charlotte Kennedy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muk-kI-vYB">
+                                <rect key="frame" x="116" y="383" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Muk-kI-vYB" firstAttribute="top" secondItem="oSE-XL-6Gj" secondAttribute="bottom" constant="11" id="3EU-Jj-p7R"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="289" id="JJm-Qt-fYO"/>
-                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b7Y-ip-PZY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="8" id="dyY-B3-kvS"/>
-                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="275" id="haU-Xw-AYY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Muk-kI-vYB" secondAttribute="bottom" constant="289" id="qWA-xf-mZL"/>
-                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="275" id="yvG-nA-Urn"/>
+                            <constraint firstItem="Muk-kI-vYB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KON-gN-xvT"/>
+                            <constraint firstItem="Muk-kI-vYB" firstAttribute="top" secondItem="oSE-XL-6Gj" secondAttribute="bottom" constant="24" id="NfK-lr-n8b"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fNh-J9-EmD"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oV3-Fv-xCv"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="oZg-2R-EfC"/>
+                            <constraint firstItem="oSE-XL-6Gj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="288" id="rmL-bI-e6I"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
